@@ -5,7 +5,7 @@ DIR_SRCS =	./srcs/
 			
 SRC		=	geometry/vector.c \
 			figure/sphere.c \
-			utils/error_exit.c \
+			utils/error_exit.c utils/color_converter.c \
 			main.c
 
 SRCS	=	$(addprefix $(DIR_SRCS), $(SRC))
